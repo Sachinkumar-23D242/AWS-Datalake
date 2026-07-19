@@ -1,51 +1,27 @@
-# AWS Data Lake Project
+# AWS Data Lake using Amazon S3, AWS Glue, Athena & PySpark
 
-## Overview
+##  Project Overview
 
 This project demonstrates how to build a serverless AWS Data Lake using Amazon S3, AWS Glue, Amazon Athena, and PySpark.
 
-The pipeline ingests raw data into Amazon S3, catalogs it using AWS Glue, performs data cleaning with PySpark, and enables SQL-based analytics using Amazon Athena.
+The pipeline stores raw data in Amazon S3, catalogs it using AWS Glue, cleans and transforms data with PySpark, and enables SQL-based analytics through Amazon Athena.
 
 ---
 
-## Architecture
-
-Raw Data
-↓
-Amazon S3
-↓
-AWS Glue Crawler
-↓
-Glue Data Catalog
-↓
-PySpark Data Cleaning
-↓
-Amazon Athena
-↓
-SQL Analytics
-
----
-
-## AWS Services Used
-
-- Amazon S3
-- AWS Glue
-- AWS Glue Crawler
-- AWS Athena
-- IAM
-
----
-
-## Tech Stack
+##  Tech Stack
 
 - Python
 - PySpark
 - SQL
-- AWS
+- Amazon S3
+- AWS Glue
+- AWS Glue Crawler
+- Amazon Athena
+- IAM
 
 ---
 
-## Project Structure
+##  Project Structure
 
 ```
 AWS-Datalake/
@@ -55,15 +31,26 @@ AWS-Datalake/
 ├── docs/
 ├── screenshots/
 ├── scripts/
+│   └── Data_cleaning.py
 ├── sql/
 └── README.md
 ```
 
 ---
 
-## Future Improvements
+##  Workflow
 
-- Convert CSV files to Parquet
-- Automate ETL using AWS Lambda
-- Add Amazon QuickSight Dashboard
-- Schedule Glue Jobs
+1. Upload raw data to Amazon S3.
+2. Catalog the data using AWS Glue Crawler.
+3. Clean and transform data with PySpark.
+4. Query the processed data using Amazon Athena.
+5. Analyze results with SQL.
+
+---
+
+##  Future Improvements
+
+- Convert CSV data to Parquet format.
+- Partition datasets for faster Athena queries.
+- Automate ETL using AWS Lambda.
+- Visualize data with Amazon QuickSight.
