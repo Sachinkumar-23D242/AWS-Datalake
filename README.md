@@ -1,6 +1,6 @@
 # AWS Data Lake using Amazon S3, AWS Glue, Athena & PySpark
 
-##  Project Overview
+## Project Overview
 
 This project demonstrates how to build a serverless AWS Data Lake using Amazon S3, AWS Glue, Amazon Athena, and PySpark.
 
@@ -8,7 +8,7 @@ The pipeline stores raw data in Amazon S3, catalogs it using AWS Glue, cleans an
 
 ---
 
-##  Tech Stack
+## Tech Stack
 
 - Python
 - PySpark
@@ -21,7 +21,7 @@ The pipeline stores raw data in Amazon S3, catalogs it using AWS Glue, cleans an
 
 ---
 
-##  Project Structure
+## Project Structure
 
 ```
 AWS-Datalake/
@@ -38,7 +38,7 @@ AWS-Datalake/
 
 ---
 
-##  Workflow
+## Workflow
 
 1. Upload raw data to Amazon S3.
 2. Catalog the data using AWS Glue Crawler.
@@ -48,7 +48,7 @@ AWS-Datalake/
 
 ---
 
-##  Future Improvements
+## Future Improvements
 
 - Convert CSV data to Parquet format.
 - Partition datasets for faster Athena queries.
