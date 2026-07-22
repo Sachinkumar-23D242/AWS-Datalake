@@ -1,0 +1,13 @@
+order_id,order_date,customer_id,product_name,quantity,unit_price,category,city,payment_method,order_status
+1001,2026-07-01,C001,Laptop,1,65000,Electronics,Chennai,Credit Card,Delivered
+1002,2026/07/02,C002,Mouse,2,1200,Electronics,Bangalore,UPI,Delivered
+1002,2026/07/02,C002,Mouse,2,1200,Electronics,Bangalore,UPI,Delivered
+1003,07-03-2026,C003,Keyboard,-1,2200,Electronics,Hyderabad,Debit Card,Shipped
+1004,2026-07-04,C004,Monitor,1,,Electronics,Chennai,Credit Card,Delivered
+1005,2026-07-05,C005,,1,14500,Electronics,Chennai,Net Banking,Processing
+1006,2026-07-06,C006,SSD,,7200,Storage,Chennai,UPI,Delivered
+,2026-07-08,C008,Printer,1,9800,Electronics,Delhi,Credit Card,Delivered
+1009,2026-07-09,C009,Webcam,1,-4200,Electronics,Kolkata,Debit Card,Returned
+1010,abc,C010,Power Bank,1,1800,Accessories,Jaipur,UPI,Delivered
+1011,2026-07-11,C011,Smartphone,1,28000,Electronics,Hyderabad,EMI,Shipped
+1012,2026-07-12,C012,Tablet,1,24000,Electronics,Hyderabad,Credit Card,Delivered
