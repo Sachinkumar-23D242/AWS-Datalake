@@ -1,0 +1,14 @@
+shop_id,shop_name,city,state,region,manager_name,opened_date,shop_category
+S001,Tech World,Chennai,Tamil Nadu,South,Rajesh Kumar,2019-01-15,Electronics
+S002,Digital Hub,Bangalore,Karnataka,South,Anita Rao,2020/03/22,Electronics
+S002,Digital Hub,Bangalore,Karnataka,South,Anita Rao,2020/03/22,Electronics
+,Mobile Zone,Hyderabad,Telangana,South,Vikram Reddy,2018-07-10,Mobiles
+S004,Home Needs,Mumbai,Maharashtra,West,,2021-06-05,Home Appliances
+S005,Fashion Point,Delhi,Delhi,North,Amit Verma,,Clothing
+S006,Book Palace,KOLKATA,West Bengal,East,Priya Das,2016-08-30,Books
+S007,Sports Arena,pune,Maharashtra,West,Rahul Patil,2016-15-20,Sports
+S008,Gadget Store,Ahmedabad,Gujarat,West,Nikhil Mehta,2020-09-01,
+S009,Furniture House,Jaipur,Rajasthan,North,Pooja Singh,2019-12-11,Furniture
+S010,Daily Mart,Kochi,Kerala,South,Arun Nair,2021-04-28,Groceries
+S011,Electro Mart,Chennai,Tamil Nadu,South,Ravi,abc,Electronics
+S012,,Hyderabad,Telangana,South,Meena,2022-02-02,Electronics
